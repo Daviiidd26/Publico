@@ -1,4 +1,4 @@
-# P-blico
-Trabajos de DAW
+#  PUBLICO
+Trabajos de DAW   
 
 David Romero Martinez
