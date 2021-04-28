@@ -1,123 +1,171 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="David menu.css">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-/* Fixed sidenav, full height */
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-/* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
-}
-
-/* Main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
-  color: white;
-}
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+    <title>NOVA-TENDENCIA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Estilos--> 
+   
+   <link rel=”stylesheet” type=”text/css” href="CSS/estilos.css">
+   <link rel = "preconnect" href = "https://fonts.gstatic.com">
+   <link href = "https://fonts.googleapis.com/css2? family = Open + Sans & display = swap" rel = "hoja de estilo">
 </head>
 <body>
+    <!--Menu de navegacion-->
+    <header id="header">
 
-<div class="sidenav">
-  <a href="#about">Productos</a>
-  <a href="#services">Servicios</a>
-  <a href="#clients">Clientes</a>
-  <a href="#contact">Contacto</a>
-  <button class="dropdown-btn">Fotos
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  <a href="#contact">Redes Sociales</a>
-</div>
+   <nav class="menu">
 
-<div class="main">
-  <h2>Estamos en proceso</h2>
-  <a href="DavidRomero.html"> Link </a>
-	<div style="margin-top:30px";>&copy; 2021 <a target="_blank"> David Romero Martinez 1 DAW.</a></div>
-</div>
+    <div class="logo-box">
+        <h1><a href="#">Nova Tendencia</a></h1>
+		
+        <span class="logochico"><i class="fas fa-align-justify"></i></span> <!--icono por rutear bien-->
+    </div>
+
+    <div class="contendor">
+        <ul class="lista">
+            <li><a href="#" class="activo">Inicio</a></li>
+            <li><a href="#">Salón de Belleza</a></li>
+            <li><a href="#">Peluquería</a></li>
+            <li><a href="#">Estética</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>       
+    </div>
+    <!--IMG Header-->
+    <div class="img_header">
+        <div class="Bienvenidos">
+            <h1>Bienvenidos a NOVA-TENDENCIA</h1>
+            <hr>
+            <p>Centro de Belleza y Estética</p>
+            <button id="abajo">Ver final</button></button>
+        </div>
+
+    </div>
+   </nav>
+
+    </header>
+        <!--Menu de navegacion-->
+
+
+    <main>
+        <!--Acerca de nosotros-->
+
+        <section class="acerca de">
+
+            <div class="Info_contendor">
+                <h1>Acerca de NOSOTROS</h1>
+                <p>hh</p>         <!--Texto de acerca de la peluqueria-->
+                <p>hh</p>
+
+
+                <div class="sobre-galeria">
+                    <img src="FOTOS/NUESTRO_SALON/RECIBIDOR_2.jpg" alt="">     <!--Rutear bien las fotos-->
+                    <img src="FOTOS/NUESTRO_SALON/SALA ESPERA_2.jpg" alt="">
+                    <img src="FOTOS/PORTADAS_MINI_PRINCIPAL/TIJERAS.jpg" alt="">
+                </div>
+                                                                    <!--<div class="acerca de más"><button>TRABAJOS REALIZADOS</button></div>-->
+                                                                    <!--DUDA DE SI PONER UN BOTON POR EL TEMA DEL CONTENIDO ("LEER MAS")-->
+        
+            </div>
+            
+        </section>
+
+        <!--Nuestros trabajos-->
+        <section class="Nuestros trabajos">
+
+            <div class="deg-background"></div>
+
+
+            <div class="ejeZproject">
+                <div class="contenedor-proyecto"></div>
+
+                    <div class="proyecto-titulo">
+                        <h2>Nuestros Trabajos</h2>
+                        <hr>
+                    </div>
+
+                    <div class="proyecto-img">
+                        <img src="FOTOS/PEINADOS_MUJERES/RECOGIDOS/PEINADOS5.jpg" alt="">
+                        <img src="FOTOS/PEINADOS_MUJERES/RECOGIDOS/PEINADOS9.jpg" alt="">
+                        <img src="FOTOS/PEINADOS_MUJERES/RECOGIDOS/PEINADOS2.jpg" alt="">
+                        <img src="FOTOS/PEINADOS_MUJERES/PEINADOS_LISOS\PEINADO3.jpg" alt="">
+                        <img src="FOTOS/PEINADOS_MUJERES/PEINADOS_LISOS/PEINADO6.jpg" alt="">
+                        <img src="FOTOS/PEINADOS_MUJERES/PEINADOS_LISOS/PEINADOS17.jpg" alt="">
+                        
+                         <!--Aqui adentro iran todas la imagenes de los trabajos realizados en la peqluqueria-->
+                    </div>
+         
+         
+                </div>
+
+        </section>
+
+        <!--Testimonios-->
+        <section class="testimonios">
+            <div class="testimonios-titulo">
+                <h2>Testimonios</h2>
+                <hr>
+            </div>
+
+
+            <div class="box-testimonios">
+
+
+                <div class="tajetas-testimonios">
+                    <div class="tarjetas-img"><img src="FOTOS\PERSONAS\persona5.jpg" alt=""></div>   <!--Buscar imagen de un persona-->
+                    <div class="testimonio-text">
+                        <h4>Luis Del Arco</h4>
+                        <p>Profesionales y buen trato con el personal. Hacen trabajos muy buenos. Lo recomiendo totalmente</p> <!--Buscar testimonio acerca de la peluqueria-->
+                    </div>
+                </div>
+
+                <div class="card-testimonios">
+                    <div class="card-img"><img src="FOTOS\PERSONAS\persona2.jpg" alt=""></div> <!--Buscar imagen de un persona-->
+                    <div class="testimonio-text">
+                        <h4>Isabel MaríÍa Torres Hidalgo</h4>
+                        <p>Preciosa peluquería, muy buen trato con las clientas, recomendable 100%</p> <!--Buscar testimonio acerca de la peluqueria-->
+                    </div>
+                </div>
+
+
+                <div class="card-testimonios">
+                    <div class="card-img"><img src="FOTOS\PERSONAS\persona3.jpg" alt=""></div> <!--Buscar imagen de un persona-->
+                    <div class="testimonio-text">
+                        <h4>Sara María Bueno Romero</h4>
+                        <p>Excelente atención y resultados increíbles, sin duda toda una profesional que no solo sabe captar lo que quieres sino que lo ejecuta de forma extraordinaria</p> <!--Buscar testimonio acerca de la peluqueria-->
+                    </div>
+                </div>
+
+
+                <div class="card-testimonios">
+                    <div class="card-img"><img src="FOTOS\PERSONAS\persona4.jpg" alt=""></div> <!--Buscar imagen de un persona-->
+                    <div class="testimonio-text">
+                        <h4>Carlos gallardo ojeda</h4>
+                        <p>PROFESIONAL,MUY AGRADABLE Y UN TRATO INMEJORABLE</p> <!--Buscar testimonio acerca de la peluqueria-->
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <div class="footer-text">
+        <p>&copy; Nova Tendencia <i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="far fa-envelope"></i><i class="fas fa-phone"></i> </p> 
+        
+
+    </div>
+    
 
 
 
+    <!--script-->
+    <script>"JAVA/app.js"</script>
+    <script src="https://kit.fontawesome.com/077e8de049.js" crossorigin="anonymous"></script>
 
+    
 </body>
-
-<script>
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-</script>
-</html> 
+</html>
